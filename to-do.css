@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+  background-image:url("Colorful Fluid Linktree Background.png" );
+  /*background-image: url("Pastel Shapes Fun & Playful Linktree Background.png");*/
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  #todo-list {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20%;
+    background-color: rgb(197, 176, 218);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+  }
+  add{
+    border-radius: 5px;
+  }
+  button {
+    background-color: rgb(236, 72, 187);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  @media (max-width: 900px) {
+    #todo-list {
+      padding: 10px;
+    }
+    li {
+      padding:5px;
+      margin: 5px 0;
+    }
+    button {
+      padding: 3px 5px;
+    }
+    body{
+        padding: 20px;
+    }
+  }
+  
